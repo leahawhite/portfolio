@@ -1,0 +1,13 @@
+#bio {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+#bio > p {
+  text-align: left;
+  padding: 2em;
+  color: #595959;
+}
