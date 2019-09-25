@@ -24,7 +24,7 @@
   display: flex;
   align-items: center;
   height: 100%;
-  padding: 0 32px;
+  padding: 0 1.5rem;
 }
 
 .navbar_navigation_items a {
@@ -35,6 +35,10 @@
   font-size: 1.5rem;
   transition: all 0.5s ease;
   -webkit-transition: all 0.5s ease;
+}
+
+#item-3 {
+  margin-right: 0;
 }
 
 .navbar_navigation_items a:hover,
@@ -60,6 +64,6 @@
 
 @media (min-width: 1200px) {
   .navbar__navigation {
-    padding: 0 52.5px;
+    padding: 0;
   }
 }
