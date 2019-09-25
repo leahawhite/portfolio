@@ -67,13 +67,13 @@ export default class App extends Component {
           <Navbar drawerClickHandler={this.drawerToggleClickHandler} />
           <SideDrawer show={this.state.sideDrawerOpen} />
           {backdrop}
-          <header className="hero" role="banner">
+          <header className="hero">
             <div className="inner">
               <h1>Full-stack developer.<span>Where do we go from here?</span></h1>
             </div>
           </header>
         </div>  
-        <main id="main" role="main">
+        <main id="main">
           <div className="container">
             <Bio />
             <section id="portfolio">

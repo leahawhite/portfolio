@@ -6,14 +6,16 @@
 
 .image {
   border-radius: 4px;
+  margin-bottom: 20px;
 }
 
 .content {
-  margin-bottom: 30px;
+  text-align: left;
 }
 
 .content h2 {
   font-size: 26px;
+  margin-bottom: 3px;
 }
 
 .content h3 {
@@ -27,6 +29,10 @@
 .content p {
   color: #595959;
   padding-bottom: 20px;
+}
+
+.project-link-container {
+  display: block;
 }
 
 #portfolio {
@@ -48,8 +54,4 @@
   border: none;
   border-top: 3px solid #595959;
   margin: 1em 0;
-}
-
-.content {
-  text-align: left;
 }

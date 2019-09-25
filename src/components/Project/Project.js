@@ -15,8 +15,10 @@ export default function Project(props) {
         <h3>{props.projectSubtitle}</h3>
         <hr></hr>
         <p>{props.projectDesc}</p>
-        <a target="_blank" rel="noopener noreferrer" href={props.ghLink1}>GitHub </a>|
-        <a target="_blank" rel="noopener noreferrer" href={props.demoLink}> Demo</a>
+        <div className="project-link-container">
+          <a target="_blank" rel="noopener noreferrer" href={props.ghLink1}>GitHub </a>|
+          <a target="_blank" rel="noopener noreferrer" href={props.demoLink}> Demo</a>
+        </div>
       </div>
     </article>           
   )

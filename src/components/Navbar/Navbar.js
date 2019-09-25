@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import classnames from 'classnames';
-import '../SideDrawer/DrawerToggleButton';
-import './Navbar.css'
 import DrawerToggleButton from '../SideDrawer/DrawerToggleButton';
+import './Navbar.css'
 
 export default class Navbar extends Component {
   state = {
