@@ -58,6 +58,10 @@ main {
   margin-right: auto;
 }
 
+.hidden {
+  display: none;
+}
+
 a {
   cursor: pointer;
   text-decoration: none;

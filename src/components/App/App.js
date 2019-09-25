@@ -77,6 +77,7 @@ export default class App extends Component {
           <div className="container">
             <Bio />
             <section id="portfolio">
+              <h2 className="hidden">Projects</h2>
               <Project 
                 imageSrc={NoteView}
                 imageAlt="Desktop view of the dashboard, featuring notes for what to watch."
